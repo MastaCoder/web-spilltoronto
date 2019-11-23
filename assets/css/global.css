@@ -1,0 +1,21 @@
+body {
+    overflow-x: hidden;
+}
+
+.top-nav-collapse {
+    background-color: #1e88e5 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+@media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #1e88e5 !important;
+    }
+}
+
+.navbar-brand {
+    font-family: "Poppins";
+}
